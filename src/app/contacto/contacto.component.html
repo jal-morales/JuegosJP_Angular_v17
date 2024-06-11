@@ -1,0 +1,128 @@
+
+<!-- Contenedor para el formulario y las tarjetas de producto -->
+<div class="container mt-5">
+<div class="row justify-content-center">
+    <!-- Columna del formulario de acceso -->
+    <div class="col-md-4">
+        <h2 class="text-center">Iniciar Sesión</h2>
+      <div class="form-control"> 
+        <form action="" class="formulario form-control" id="formulario">
+            <!-- Grupo: Usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario__label ">Usuario</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input form-control" name="usuario" id="usuario" placeholder="john123">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                
+            </div>
+
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input form-control" name="nombre" id="nombre" placeholder="John Doe">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+               
+            </div>
+
+            <!-- Grupo: Contraseña -->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input form-control" name="password" id="password">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+               
+            </div>
+
+            <!-- Grupo: Contraseña 2 -->
+            <div class="formulario__grupo" id="grupo__password2">
+                <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input form-control" name="password2" id="password2">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+              
+            </div>
+
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo Electrónico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input form-control" name="correo" id="correo" placeholder="correo@correo.com">
+                    
+                </div>
+              
+            </div>
+
+            <!-- Grupo: Teléfono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">Teléfono</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input form-control" name="telefono" id="telefono" placeholder="4491234567">
+                  
+                </div>
+             
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                
+            </div>
+        </form>
+    </div>   
+       <!--- <a href="RegistrarUsuario.html">Registrar Usuario</a>-->
+    </div>
+
+    <!-- Columna para las tarjetas de producto -->
+    <div class="col-md-6">
+       
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="d-flex justify-content-center">
+                            <img src="../../assets/images/niños/adivinaquien.PNG" alt="Denim Jeans">
+                        </div>
+                        <div class="card-body">
+                            <h4>Adivina Quien</h4>
+                            <p class="price">$22.500</p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>juego de mesa de adivinanzas sobre personajes..</p>
+                            <p><button class="btn btn-primary">Agregar</button></p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="d-flex justify-content-center">
+                     <img src="../../assets/images/familiares/granSantiago.PNG" alt="Denim Jeans">
+                    </div>
+                    <div class="card-body">
+                        <h4>Gran Santiago</h4>
+                        <p class="price">$18.950</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p>juego de mesa sobre inversiones, compraventa..</p>
+                        <p><button class="btn btn-primary">Agregar</button></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+
