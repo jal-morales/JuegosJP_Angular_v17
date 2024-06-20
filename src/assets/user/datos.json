@@ -1,0 +1,44 @@
+[
+      {
+        "usuario": "john123",
+        "nombre": "John Doe",
+        "contraseña": "password123",
+        "repetircontraseña": "password123",
+        "correoElectronico": "john.doe@example.com",
+        "telefono": "4491234567"
+      },
+      {
+        "usuario": "jane456",
+        "nombre": "Jane Smith",
+        "contraseña": "password456",
+        "repetircontraseña": "password456",
+        "correoElectronico": "jane.smith@example.com",
+        "telefono": "4497654321"
+      },
+      {
+        "usuario": "mike789",
+        "nombre": "Mike Johnson",
+        "contraseña": "password789",
+        "repetircontraseña": "password789",
+        "correoElectronico": "mike.johnson@example.com",
+        "telefono": "4491122334"
+      },
+      {
+        "usuario": "alice321",
+        "nombre": "Alice Brown",
+        "contraseña": "password321",
+        "repetircontraseña": "password321",
+        "correoElectronico": "alice.brown@example.com",
+        "telefono": "4493344556"
+      },
+      {
+        "usuario": "bob654",
+        "nombre": "Bob Davis",
+        "contraseña": "password654",
+        "repetircontraseña": "password654",
+        "correoElectronico": "bob.davis@example.com",
+        "telefono": "4495566778"
+      }
+      
+    ]
+ 
