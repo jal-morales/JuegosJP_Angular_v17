@@ -1,0 +1,91 @@
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+        <!-- Validacion pruebas unitarias -->
+         <div class="col-8">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Session de pruebas Unitarias: </strong>Ingrese los datos y colocar enviar.<br><br>
+                <strong>input-> Usuario: </strong>{{usuario}}<br>
+                <strong>input-> Nombre: </strong>{{nombre}}<br>   
+                <strong>input-> Contraseña: </strong>{{password}}<br>   
+                <strong>input-> Repetir Contraseña: </strong>{{password2}}<br>
+                <strong>input-> Correo: </strong>{{correo}}<br>    
+                <strong>input-> Telefono: </strong>{{telefono}}<br><br>     
+                <strong>Boton enviar: </strong>{{FormularioEnviado}}   
+              </div>
+
+              
+         </div>
+        <div class="col-md-4">
+            <h2 class="text-center">Registrar Usuario</h2>
+          <div class="form-control"> 
+            <form action="" class="formulario form-control" id="formulario">
+                <!-- Grupo: Usuario -->
+                <div class="formulario__grupo" id="grupo__usuario">
+                    <label for="usuario" class="formulario__label ">Usuario</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input form-control" name="usuario" id="usuario"  required (change)="usuario='Usuario Recibido'">
+                        
+                    </div>
+                    
+                </div>
+    
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input form-control" name="nombre" id="nombre"  required (change)="nombre='Nombre Recibido'">
+                       
+                    </div>
+                   
+                </div>
+    
+                <!-- Grupo: Contraseña -->
+                <div class="formulario__grupo" id="grupo__password">
+                    <label for="password" class="formulario__label">Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input form-control" name="password" id="password" required (change)="password='Paswword Recibida'">
+                       
+                    </div>
+                   
+                </div>
+    
+                <!-- Grupo: Contraseña 2 -->
+                <div class="formulario__grupo" id="grupo__password2">
+                    <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input form-control" name="password2" id="password2" required (change)="password2='Paswword repetida Recibida'">
+                       
+                    </div>
+                  
+                </div>
+    
+                <!-- Grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input form-control" name="correo" id="correo" placeholder="correo@correo.com" (change)="correo='Correo Recibido'">
+                        
+                    </div>
+                  
+                </div>
+    
+                <!-- Grupo: Teléfono -->
+                <div class="formulario__grupo" id="grupo__telefono">
+                    <label for="telefono" class="formulario__label">Teléfono</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input form-control" name="telefono" id="telefono" placeholder="4491234567" (change)="telefono='Telefono Recibido'">
+                      
+                    </div>
+                 
+                </div>
+
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="button" class="formulario__btn" (click)="FormularioEnviado='Accion del boton enviada correctamente'">Enviar</button>
+                    
+                </div>
+            </form>
+        </div><br><br>
+        
+        
+        

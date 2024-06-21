@@ -1,0 +1,46 @@
+
+.card img {
+    max-width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+.row{
+    padding: 10px;
+}
+
+
+
+.checked {
+    color: orange;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: cente
+}
+.rating .fa-star {
+    margin-right: 5px;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
