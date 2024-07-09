@@ -1,0 +1,79 @@
+[
+    {
+      "name": "Ajedrez",
+      "price": "$20.500",
+      "image": "../../assets/images/Adulto/ajedrez.PNG",
+      "rating": 3,
+      "description": "juego estratégico de tablero..."
+    },
+    {
+      "name": "Damas",
+      "price": "$10.990",
+      "image": "../../assets/images/Adulto/dama.PNG",
+      "rating": 3,
+      "description": "juego estratégico de tablero.."
+    },
+    {
+      "name": "Pocker",
+      "price": "$25.000",
+      "image": "../../assets/images/Adulto/pocker.PNG",
+      "rating": 3,
+      "description": "juego estratégico de cartas.."
+    },
+    {
+      "name": "Carioca",
+      "price": "$3.500",
+      "image": "../../assets/images/cartas/carioca.PNG",
+      "rating": 3,
+      "description": "juego de cartas tipo rummy con escaleras y tríos..."
+    },
+    {
+      "name": "Española",
+      "price": "$4.500",
+      "image": "../../assets/images/cartas/española.PNG",
+      "rating": 3,
+      "description": "juego de naipes tradicional con 40 o 48 cartas..."
+    },
+    {
+      "name": "Uno",
+      "price": "$3.000",
+      "image": "../../assets/images/cartas/uno.PNG",
+      "rating": 3,
+      "description": "juego de cartas con colores y números..."
+    },
+    {
+      "name": "Gran Capital",
+      "price": "$18.500",
+      "image": "../../assets/images/familiares/granCapital.PNG",
+      "rating": 3,
+      "description": "juego de mesa sobre inversiones, compraventa.."
+    },
+    {
+      "name": "Gran Santiago",
+      "price": "$18.950",
+      "image": "../../assets/images/familiares/granSantiago.PNG",
+      "rating": 3,
+      "description": "juego de mesa sobre inversiones, compraventa.."
+    },
+    {
+      "name": "Ludo",
+      "price": "$7.990",
+      "image": "../../assets/images/familiares/ludo.PNG",
+      "rating": 3,
+      "description": "juego de mesa con dados, cuatro fichas y tablero..."
+    },
+    {
+      "name": "Adivina Quien",
+      "price": "$22.500",
+      "image": "../../assets/images/niños/adivinaquien.PNG",
+      "rating": 3,
+      "description": "juego de mesa de adivinanzas sobre personajes.."
+    },
+    {
+      "name": "Serpiente",
+      "price": "$21.350",
+      "image": "../../assets/images/niños/laserpiente.PNG",
+      "rating": 3,
+      "description": "juego de mesa con tablero y fichas.."
+    }
+  ]
